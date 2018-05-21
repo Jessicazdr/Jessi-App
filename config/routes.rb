@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'about/contact'
+  resources:about
+  resources:contact
+
 
   get 'simple_pages/index'
 
