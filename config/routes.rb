@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources:about
   resources:contact
+  resources:campaign
+  resources:collection
+  get 'simple_pages/index'
+  get 'simple_pages/index'
   get 'simple_pages/index'
   get 'simple_pages/index'
   root 'simple_pages#index'
