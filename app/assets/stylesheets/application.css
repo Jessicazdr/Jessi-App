@@ -73,6 +73,12 @@ html {
   width: 85%;
   margin-left: 7%
 }
+@media (max-width: 1000px){
+ .my-image {
+    margin-bottom: 20%;
+}
+}
+
 /*Campaign*/
 
 }
@@ -151,14 +157,12 @@ footer {
   font-size: 4em;
 }
 @media (max-width: 1000px){
-.greeting  {
+.greeting {
   margin-left: -65%;
   margin-top: 8%;
   font-size: 0.6em;
 }
 }
-
-
 
 /*About*/
 
