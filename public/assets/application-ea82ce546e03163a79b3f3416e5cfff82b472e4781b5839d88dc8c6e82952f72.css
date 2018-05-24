@@ -1,0 +1,234 @@
+/*Navigation*/
+
+
+@media (max-width: 1000px){
+body {
+  margin-top: 15%;
+}
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+.project a {
+  margin-top: -7%;
+  margin-left: 3%;
+  position: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-size: 1.9em;
+  text-shadow: 0.10em 0.10em 0.10em #aaa;
+  color: #34495e;
+  font-family: Garamond, Georgia,  serif;
+  transition: color 600ms;
+  -webkit-transition: color 600ms
+}
+.container-fluid {
+  padding-left: 25px;
+}
+.Maia a {
+  margin-top: -15%;
+}
+.project header {
+  margin-top: 20%;
+}
+.project a:hover {
+  color: #FFFFF0;
+}
+.navbar-nav>li>a {
+  color: #34495e;
+  margin-top: 5%;
+  display: inline-block;
+  transition: color 600ms;
+  -webkit-transition: color 600ms
+}
+.navbar-inverse .navbar-nav>.active>a {
+  color: #34495e;
+  background-color: #FFFFF0;
+}
+.navbar {
+  border-bottom: #FFFFF0 2px solid;
+  float: right;
+  background-color: #FFFFF0;
+  letter-spacing: 0.05em;
+}
+.navbar ul li a {
+  font-family: Garamond, Georgia,  serif;
+  font-size: 1.35em;
+  color: #34495e;
+  text-shadow: 0.25em 0.25em 0.25em #aaa;
+}
+.navbar-inverse .navbar-collapse{
+  padding-bottom: 0.7%;
+}
+@media (max-width: 1000px){
+  .project header {
+    margin-top: 0px;
+}
+}
+
+/*Collection */
+
+.New_york {
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: -1%;
+  font-family: 'Courgette', Garamond, Georgia,  serif;
+  color: #34495e;
+}
+.carousel-inner {
+  margin-left: 6.9%;
+  width: 100%;
+}
+.carousel-caption {
+  position: center;
+  color: #34495e;
+}
+@media (max-width: 1000px){
+.modal-body {
+  margin-left: 3%;
+  margin-right: 2%;
+}
+.my-image1 {
+  margin-left:-5%;
+}
+.my-image2 {
+  margin-left:-5%;
+}
+.my-image3 {
+  margin-left:-5%;
+}
+.carousel-control.right {
+  margin-right: -5%;
+}
+}
+
+/*Campaign*/
+
+}
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+  background-color: #FFFFF0;
+  border: none;
+}
+
+/*Footer*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFF0;
+  text-align: center;
+}
+.copyright {
+  margin-top: 1.5%;
+}
+
+/*Contact*/
+
+.placer{
+  text-align: center;
+  margin-top: -35%;
+  color:#FFFFF0;
+}
+.Picture {
+  margin-top: 4%;
+}
+.Picture h1 {
+  font-family: 'Tangerine', Garamond, Georgia, serif;
+  font-size: 3em;
+}
+.Picture p {
+  font-family: Garamond, Georgia, serif;
+  font-size: 1em;
+}
+.Mail {
+  font-size: 1.5em;
+}
+.Phonenumber {
+  font-size: 1.5em;
+}
+@media (max-width: 1000px){
+.Mail {
+  color: black;
+}
+.Text2 {
+  color: black;
+}
+.Phonenumber {
+  color: black;
+}
+}
+
+/*Home*/
+
+
+.greeting {
+  margin-top: 15%;
+  text-align:center;
+  margin-top: -40%;
+}
+.greeting p {
+  font-family: Garamond, Georgia, serif;
+  font-size: 1.5em;
+  margin-left: 41%;
+}
+.greeting h2 {
+  margin-top: -%;
+  margin-left: 41%;
+  font-family: 'Tangerine', Garamond, Georgia, serif;
+  font-size: 4em;
+}
+@media (max-width: 1000px){
+.greeting {
+  margin-left: -65%;
+  margin-top: 8%;
+  font-size: 0.6em;
+}
+}
+
+/*About*/
+
+#about h1 {
+  font-family: 'Tangerine', Garamond, Georgia, serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+#about p {
+  font-family: Garamond, Georgia, serif;
+  font-size: 1em;
+  text-align: center;
+}
+#about {
+  margin-top: 7%;
+  width:80%;
+  margin-left: 10%;
+}
+.Image_column {
+  margin-top: 7%;
+}
+.History_of_the_brand_Maia {
+  margin-bottom: 17%;
+}
+@media (max-width: 1000px){
+.History_of_the_brand_Maia {
+  margin-bottom: 25%;
+}
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
