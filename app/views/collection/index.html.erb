@@ -1,11 +1,25 @@
-<div class="collection">
-  <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
-    <%= image_tag("bild1.jpg", class: "img-responsive")%>
-  </div>
-  <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
-    <%= image_tag("bild2.jpg", class: "img-responsive")%>
-  </div>
-  <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
-    <%= image_tag("bild3 .jpg", class: "img-responsive my-image")%>
-  </div>
-</div>
+    <div class="New_york">
+      <p>Pull the arrows right and left to see more</p>
+    </div>
+  <div class="modal-body">
+    <div id="myGallery" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag("slideshow2.PNG", class: "img-responsive my-image1") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slideshow1.PNG", class: "img-respponsive my-image2") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slideshow3.PNG", class: "img-respponsive my-image3") %>
+        </div>
+      </div><!--end carousel-inner-->
+        <!-- Previous and Next buttons-->
+        <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div><!-- myGallery-->
+  </div><!-- modal-body-->
+    <div class="modal-footer">
+    </div><!-- end modal-content-->
