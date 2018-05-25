@@ -83,6 +83,9 @@ html {
   position: center;
   color: #34495e;
 }
+.modal-body {
+  margin-bottom: 2.5%;
+}
 @media (max-width: 1000px){
 .modal-body {
   margin-left: 3%;
@@ -126,7 +129,7 @@ footer {
 
 /*Contact*/
 
-.placer{
+.placer {
   text-align: center;
   margin-top: -35%;
   color:#FFFFF0;
